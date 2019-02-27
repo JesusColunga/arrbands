@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array of Bands</title>
+</head>
+<body>
+    <h1> Favorite Bands </h1>
+    <br>
+    <p>
+        Hint:
+        <br>
+        My favorite bands are:
+        <br>
+        "bread", "america", "queen", "pink floyd", "the beatles", "the rolling stones"
+    </p>
+
+    <script type="text/javascript">
+        var ArrBandas = ["bread", "america", "queen", "pink floyd", "the beatles", "the rolling stones"];
+        var TuBanda   = prompt ("Which is your favorite band?");
+
+        TuBanda   = TuBanda.toLowerCase();
+
+        if (ArrBandas.includes (TuBanda)) {
+            alert ("YEAH I LOVE THEM!");
+        }
+        else {
+            alert ("Nah. They're pretty lame.");
+        }
+
+    </script>
+    
+</body>
+</html>
